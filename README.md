@@ -204,15 +204,6 @@ python training/extract_frames.py
 
 ---
 
-## Author
-
-**Musab Salmani**
-- GitHub: [@musab855](https://github.com/musab855)
-- LinkedIn: [musab-salmani-497150325](https://linkedin.com/in/musab-salmani-497150325)
-- Email: musabasif5@gmail.com
-
----
-
 ## License
 
 This project is for educational and research purposes. The FaceForensics++ dataset is subject to its own [Terms of Use](http://kaldir.vc.in.tum.de/faceforensics/webpage/FaceForensics_TOS.pdf).
