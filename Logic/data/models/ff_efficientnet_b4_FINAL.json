@@ -1,0 +1,36 @@
+{
+  "model_name": "Deepfake Detector v1.0",
+  "architecture": "EfficientNet-B4",
+  "dataset": "FaceForensics++ c40 (Deepfakes vs Original)",
+  "trained_at": "2026-05-12 11:38:01",
+  "best_epoch": 17,
+  "performance_metrics": {
+    "test_accuracy": "99.08%",
+    "validation_accuracy": "99.03%",
+    "auc_score": "99.95%",
+    "precision": "98.92%",
+    "recall": "99.22%",
+    "f1_score": "99.07%"
+  },
+  "training_details": {
+    "dataset": "FaceForensics++ c40",
+    "total_videos": 2000,
+    "total_frames": 39697,
+    "train_frames": 27787,
+    "val_frames": 5954,
+    "test_frames": 5956,
+    "epochs": 20,
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "augmentation": "HorizontalFlip, ColorJitter, Rotation"
+  },
+  "inference_settings": {
+    "default_frames_analyzed": 10,
+    "frame_sampling": "evenly distributed",
+    "input_size": "224x224",
+    "prediction_threshold": 0.5
+  }
+}
+
+            
+                
